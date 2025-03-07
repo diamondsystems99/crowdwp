@@ -90,7 +90,7 @@
     font-family: 'peyda' !important;
   }
   *:not(h1 ,h2,h3,h4,h5,h6) , .price {
-    font-family: var(--font-yekanbakh-bold) !important;
+      font-family: var(--font-iransans) !important;
   }
   * {
     letter-spacing: 0 !important;
