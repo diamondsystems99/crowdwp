@@ -280,7 +280,7 @@ function jstrftime($format, $timestamp = NULL, $fanum = false) {
 
                 case 'j':
                     $dayinM = jday_of_year($pMonth, $pDay);
-                    $result .= (($dayinM < 10) ? '00' . $dayinM : ($dayinM < 100) ? '0' . $dayinM : $dayinM);
+                    $result .= (($dayinM < 10) ? '00' . $dayinM : (($dayinM < 100) ? '0' . $dayinM : $dayinM));
                     break;
 
                 case 'u':
@@ -348,9 +348,9 @@ function jstrftime($format, $timestamp = NULL, $fanum = false) {
                 case 'P':
                 case 'r':
                     if (date('a', $timestamp) == 'am') {
-                        $result .= (($type == 'p') ? 'ق.ظ' : ($type == 'P') ? 'قبل از ظهر' : strftime("%I:%M:%S قبل از ظهر", $timestamp));
+                        $result .= (($type == 'p') ? 'ق.ظ' : (($type == 'P') ? 'قبل از ظهر' : strftime("%I:%M:%S قبل از ظهر", $timestamp)));
                     } else {
-                        $result .= (($type == 'p') ? 'ب.ظ' : ($type == 'P') ? 'بعد از ظهر' : strftime("%I:%M:%S بعد از ظهر", $timestamp));
+                        $result .= (($type == 'p') ? 'ب.ظ' : (($type == 'P') ? 'بعد از ظهر' : strftime("%I:%M:%S بعد از ظهر", $timestamp)));
                     }
                     break;
 

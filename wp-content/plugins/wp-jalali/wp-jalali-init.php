@@ -184,7 +184,7 @@ function ztjalali_login_text() {
 }
 
 function ztjalali_login_img() {
-    echo '<style>#login h1 a {background: transparent url(' . plugins_url('assets/img/wp-jalali-1-80x80.png', __FILE__) . ') no-repeat scroll center top}</style>';
+    echo '<style>#login h1 a {background: transparent url(' . plugins_url('assets/img/wp-jalali-80x80.png', __FILE__) . ') no-repeat scroll center top}</style>';
 }
 
 /* =================================================================== */

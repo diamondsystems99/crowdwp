@@ -9,7 +9,7 @@ global $ztjalali_option;
     <h2><?php _e('wp persian option', 'ztjalali'); ?></h2>
     <div class="ztjalali_option_logo">
         <a href="http://wp-persian.com" target="_BLANK" title="وردپرس فارسی">
-            <img src="<?php echo plugins_url('/assets/img/wp-jalali-1-80x80.png', dirname(__FILE__)); ?>" />
+            <img src="<?php echo plugins_url('/assets/img/wp-jalali-80x80.png', dirname(__FILE__)); ?>" />
         </a>
     </div>
 
