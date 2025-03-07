@@ -259,7 +259,7 @@ function jstrftime($format, $timestamp = NULL, $fanum = false) {
     while ($i < $lenghFormat) {
         $par = $format[$i];
         if ($par == '%') {
-            $type = $format{ ++$i};
+            $type = $format[++$i];
             switch ($type) {
                 # Day
                 case 'a':
