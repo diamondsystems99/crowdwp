@@ -6,7 +6,7 @@ function ztjalali_get_plugin_version() {
     if(!function_exists('get_plugin_data')) {
         include(ABSPATH . "wp-admin/includes/plugin.php"); 
     }
-    $plugin_data = get_plugin_data(dirname(__FILE__).DIRECTORY_SEPARATOR.'wp-jalali.php', FALSE, FALSE );
+    $plugin_data = get_plugin_data(dirname(__FILE__).DIRECTORY_SEPARATOR.'wp-jalali-1.php', FALSE, FALSE );
     return $plugin_data['Version'];
 }
 
@@ -16,7 +16,7 @@ function ztjalali_get_plugin_version() {
  * @param string $matches
  * @return string
  * @since 5.0.0
- * @see wp-jalali 4.5.3 : inc/farsinum-core.php line 5
+ * @see wp-jalali-1 4.5.3 : inc/farsinum-core.php line 5
  */
 function ztjalali_convertToFarsi($matches) {
     global $ztjalali_option;
@@ -40,7 +40,7 @@ function ztjalali_convertToFarsi($matches) {
  * @param string $content
  * @return string
  * @since 5.0.0
- * @see wp-jalali 4.5.3 : inc/farsinum-core.php line 23
+ * @see wp-jalali-1 4.5.3 : inc/farsinum-core.php line 23
  */
 function ztjalali_persian_num($content) {
 //    return preg_replace_callback('/(?:&#\d{2,4};)|((?:\&nbsp\;)*\d+(?:\&nbsp\;)*\d*\.*(?:\&nbsp\;)*\d*(?:\&nbsp\;)*\d*)|(?:[a-z](?:[\x00-\x3B\x3D-\x7F]|<\s*[^>]+>)*)|<\s*[^>]+>/i', 'ztjalali_convertToFarsi', $content);
@@ -54,7 +54,7 @@ function ztjalali_persian_num($content) {
  * @param string $str
  * @return string
  * @since 5.0.0
- * @see wp-jalali 4.5.3 : inc/farsinum-core.php line 27
+ * @see wp-jalali-1 4.5.3 : inc/farsinum-core.php line 27
  */
 function ztjalali_english_num($str) {
     global $ztjalali_option;
@@ -75,7 +75,7 @@ function ztjalali_english_num($str) {
  * @param string $str
  * @return string
  * @since 5.0.0
- * @see wp-jalali 4.5.3 : inc/farsinum-core.php line 27
+ * @see wp-jalali-1 4.5.3 : inc/farsinum-core.php line 27
  */
 function ztjalali_persian_num_all($str) {
     global $ztjalali_option;
@@ -95,7 +95,7 @@ function ztjalali_persian_num_all($str) {
  * @param string $content
  * @return string
  * @since 5.0.0
- * @see wp-jalali 4.5.3 inc\yk-core.php 44
+ * @see wp-jalali-1 4.5.3 inc\yk-core.php 44
  */
 function ztjalali_ch_arabic_to_persian($content) {
     return str_replace(array('ي', 'ك', '٤', '٥', '٦', 'ة'), array('ی', 'ک', '۴', '۵', '۶', 'ه'), $content);

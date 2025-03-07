@@ -14,7 +14,7 @@ function ztjalali_reg_admin_meun_fn() {
             'manage_options', // user access capability
             'ztjalali_admin_page', // menu slug
             'ztjalali_admin_page_fn', //menu content function
-//            plugins_url('/assets/img/wp-jalali-16x16.png', dirname(__FILE__)), // menu icon
+//            plugins_url('/assets/img/wp-jalali-1-16x16.png', dirname(__FILE__)), // menu icon
             'dashicons-ztjalali', // menu icon
             82 // menu position
     );

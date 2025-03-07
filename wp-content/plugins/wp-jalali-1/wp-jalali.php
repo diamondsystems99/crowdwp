@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: wp-jalali
+Plugin Name: wp-jalali-1
 Plugin URI: http://wp-persian.com/wp-jalali
 Description: Full Jalali calendar support for Wordpress and localization improvements for Persian/Afghan/Tajik users.
 Version: 5.0.1
