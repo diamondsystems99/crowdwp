@@ -94,7 +94,7 @@ $configId = 3402;
                                         <a href="<?php echo $_URL; ?>"><img
                                                     alt="logo"
                                                     height="48"
-                                                    src="<?php echo $_DIR; ?>images/logo/logo@2x.png"
+                                                    src="<?php echo $_DIR; ?>images/logo/crowd.webp"
                                                     width="166"
                                             /></a>
                                     </div>

@@ -8,7 +8,7 @@
             <div class="content-footer-top">
                 <div class="footer-logo">
                     <a href="<?php echo $_URL; ?>">
-                        <img alt="logo" height="48" src="<?php echo $_DIR; ?>images/logo/logo-footer@2x.png" width="166" />
+                        <img alt="logo" height="48" src="<?php echo $_DIR; ?>images/logo/crowd.webp" width="166" />
                     </a>
                 </div>
                 <div class="wd-social">
