@@ -7085,6 +7085,7 @@ label {
   /* Safari */
   position: sticky;
   top: 0;
+  box-shadow: 0px 2px 10px 2px #ccc;
 }
 
 .fixed-cate-single {
