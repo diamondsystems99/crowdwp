@@ -95,7 +95,7 @@ $configId = 3402;
                                                     alt="logo"
                                                     height="48"
                                                     src="<?php echo $_DIR; ?>images/logo/crowd.webp"
-                                                    width="166"
+                                                    width="65"
                                             /></a>
                                     </div>
                                 </div>
@@ -176,8 +176,8 @@ $configId = 3402;
                         <a href="<?php echo $_URL; ?>">
                             <img alt="nav-logo"
                               height="44"
-                              src="<?php echo $_DIR; ?>images/logo/logo@2x.png"
-                              width="174" />
+                              src="<?php echo $_DIR; ?>images/logo/crowd.webp"
+                              width="140" />
                         </a>
                     </div>
                     <div class="bottom-canvas">
