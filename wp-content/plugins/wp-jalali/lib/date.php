@@ -42,7 +42,7 @@ function jdate($format, $timestamp = NULL, $timezone = false, $fanum = NULL) {
     global $jdate_month_name, $ztjalali_option;
     static $jdate_month_days = array(0, 31, 31, 31, 31, 31, 31, 30, 30, 30, 30, 30, 29);
     static $jdate_week_name = array('شنبه', 'یکشنبه', 'دوشنبه', 'سه شنبه', 'چهارشنبه', 'پنج شنبه', 'جمعه');
-    
+
     if (!$timestamp)
         $timestamp = time();
     elseif (!is_numeric($timestamp))
@@ -93,9 +93,9 @@ function jdate($format, $timestamp = NULL, $timezone = false, $fanum = NULL) {
     $result = '';
 
     while ($i < $lenghFormat) {
-        $par = $format{$i};
+        $par = $format[$i];
         if ($par == '\\') {
-            $result .= $format{ ++$i};
+            $result .= $format[++$i];
             $i ++;
             continue;
         }
@@ -191,7 +191,7 @@ function jdate($format, $timestamp = NULL, $timezone = false, $fanum = NULL) {
             case 's':
             case 'u':
             case 'i':
-            # Timezone
+                # Timezone
             case 'e':
             case 'I':
             case 'O':
@@ -257,7 +257,7 @@ function jstrftime($format, $timestamp = NULL, $fanum = false) {
     $result = '';
 
     while ($i < $lenghFormat) {
-        $par = $format{$i};
+        $par = $format[$i];
         if ($par == '%') {
             $type = $format{ ++$i};
             switch ($type) {
@@ -484,7 +484,7 @@ function gregorian_to_jalali($g_y, $g_m, $g_d) {
     }
 
     if ($gm > 1 && (($gy % 4 == 0 && $gy % 100 != 0) || ($gy % 400 == 0)))
-    # leap and after Feb
+        # leap and after Feb
         $g_day_no ++;
     $g_day_no += $g_d - 1;
     $j_day_no = $g_day_no - 79;
@@ -584,7 +584,7 @@ function int_div($a, $b) {
 function jday_of_year($pMonth, $pDay) {
     static $jdate_month_days = array(0, 31, 31, 31, 31, 31, 31, 30, 30, 30, 30, 30, 29);
     $days = 0;
-    
+
     for ($i = 1; $i < $pMonth; $i ++) {
         $days += $jdate_month_days[$i];
     }
