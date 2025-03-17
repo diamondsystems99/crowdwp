@@ -72,7 +72,7 @@
                         <div class="fw-7 text-white footer-heading-mobile">دسته بندی ها</div>
                         <div class="tf-collapse-content">
                             <ul class="mt-10 navigation-menu-footer">
-                                <li><a class="caption-1 text-variant-2" href="/plans">فرصت های سرمایه گزاری</a></li>
+                                <li><a class="caption-1 text-variant-2" href="https://crowdyab.ir/plans">فرصت های سرمایه گزاری</a></li>
                                 <li><a class="caption-1 text-variant-2" href="https://blog.crowdyab.ir/تماس-با-ما/">درخواست
                                         تامین مالی</a></li>
                                 <li><a class="caption-1 text-variant-2" href="#">باشگاه سرمایه گذاران</a></li>
