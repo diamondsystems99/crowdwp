@@ -8,7 +8,7 @@
             <div class="content-footer-top">
                 <div class="footer-logo">
                     <a href="<?php echo $_URL; ?>">
-                        <img alt="logo" src="<?php echo $_DIR; ?>images/logo/logofont.png" width="166" />
+                        <img alt="logo" src="<?php echo $_DIR; ?>images/logo/logofont.png" width="166"/>
                     </a>
                 </div>
                 <div class="wd-social">
@@ -38,35 +38,21 @@
     <div class="inner-footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="footer-cl-1">
                         <ul class="mt-12">
-                            <li class="mt-12 d-flex align-items-center gap-8">
-                                <i class="icon icon-mapPinLine fs-20 text-variant-2"></i>
-                                <p class="text-white">
-                                    تهران میرداماد قبل از خیابان نیل جنب ستاد مرکزی بیمه دی ساختمان سبز(۲۳۷) طبقه ۴ واحد بیست
-                                </p>
-                            </li>
-                            <li class="mt-12 d-flex align-items-center gap-8">
-                                <i class="icon icon-phone2 fs-20 text-variant-2"></i>
-                                <a class="text-white caption-1" href="tel:02122255095">
-                                    02122255095
-                                </a>
-                            </li>
-                            <li class="mt-12 d-flex align-items-center gap-8">
-                                <i class="icon icon-phone2 fs-20 text-variant-2"></i>
-                                <a class="text-white caption-1" href="#">
-                                    1918955177
-                                </a>
-                            </li>
-                            <li class="mt-12 d-flex align-items-center gap-8">
-                                <i class="icon icon-mail fs-20 text-variant-2"></i>
-                                <p class="text-white">crowdyab.ir@gmail.com</p>
-                            </li>
+                            <li class="mt-12 d-flex align-items-center gap-8"><i
+                                        class="icon icon-mapPinLine fs-20 text-variant-2"></i>
+                                <p class="text-white">تهران - بلوار ولیعصر</p></li>
+                            <li class="mt-12 d-flex align-items-center gap-8"><i
+                                        class="icon icon-phone2 fs-20 text-variant-2"></i><a
+                                        class="text-white caption-1" href="tel:02155321628">02155321628</a></li>
+                            <li class="mt-12 d-flex align-items-center gap-8"><i
+                                        class="icon icon-mail fs-20 text-variant-2"></i>
+                                <p class="text-white">funding@gmail.com</p></li>
                         </ul>
                     </div>
                 </div>
-
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-cl-2 footer-col-block">
                         <div class="fw-7 text-white footer-heading-mobile">دسته بندی ها</div>
@@ -100,14 +86,10 @@
     <div class="bottom-footer">
         <div class="container">
             <div class="content-footer-bottom">
-                <div class="copyright">
-                    ©1404 CrowdYab. تمامی حقوق محفوظ است.
-                </div>
-<!--                <ul class="menu-bottom">-->
-<!--                    <li><a href="our-service.html">شرایط خدمات</a></li>-->
-<!--                    <li><a href="pricing.html">سیاست حفظ حریم</a></li>-->
-<!--                    <li><a href="contact.html">خط مشی کوکی</a></li>-->
-<!--                </ul>-->
+                <ul class="menu-bottom">
+                    <li><a class="caption-1 text-variant-2" href="https://blog.crowdyab.ir/سیاست-حفظ-حریم/">سیاست حفظ
+                            حریم</a></li>
+                </ul>
             </div>
         </div>
     </div>
