@@ -32,7 +32,7 @@ function taxonomy_checklist_checked_ontop_filter($args)
 add_filter('wp_terms_checklist_args', 'taxonomy_checklist_checked_ontop_filter');
 //add_action( 'init', 'register_my_menus' );
 $nav_cache = '';
-function filter_menu_items($menu){
+/*function filter_menu_items($menu){
     global $nav_cache;
     $nav_cache = $menu;
     $a = array('href="#"',  'خانه');
@@ -43,7 +43,7 @@ function filter_menu_items($menu){
     $menu = str_replace($a, $b, $menu);
     return $menu;
 }
-add_filter('wp_nav_menu_items', 'filter_menu_items');
+add_filter('wp_nav_menu_items', 'filter_menu_items');*/
 function _image($source, $size)
 {
     global $_DIR, $_URL;
