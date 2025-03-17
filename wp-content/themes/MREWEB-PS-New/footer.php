@@ -8,7 +8,7 @@
             <div class="content-footer-top">
                 <div class="footer-logo">
                     <a href="<?php echo $_URL; ?>">
-                        <img alt="logo" height="48" src="<?php echo $_DIR; ?>images/logo/crowd.webp" width="166" />
+                        <img alt="logo" src="<?php echo $_DIR; ?>images/logo/logofont.png" width="166"/>
                     </a>
                 </div>
                 <div class="wd-social">
@@ -38,180 +38,57 @@
     <div class="inner-footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="footer-cl-1">
-                        <p class="text-variant-2">
-                            متخصص در ارائه تورهای با کلاس بالا برای افراد نیازمند.
-                            تماس با ما
-                        </p>
                         <ul class="mt-12">
-                            <li class="mt-12 d-flex align-items-center gap-8">
-                                <i class="icon icon-mapPinLine fs-20 text-variant-2"></i>
-                                <p class="text-white">
-                                    تهران میرداماد قبل از خیابان نیل جنب ستاد مرکزی بیمه دی ساختمان سبز(۲۳۷) طبقه ۴ واحد بیست
-                                </p>
-                            </li>
-                            <li class="mt-12 d-flex align-items-center gap-8">
-                                <i class="icon icon-phone2 fs-20 text-variant-2"></i>
-                                <a class="text-white caption-1" href="tel:02122255095">
-                                    021-22255095
-                                </a>
-                            </li>
-                            <li class="mt-12 d-flex align-items-center gap-8">
-                                <i class="icon icon-phone2 fs-20 text-variant-2"></i>
-                                <a class="text-white caption-1" href="#">
-                                    1918955177
-                                </a>
-                            </li>
-                            <li class="mt-12 d-flex align-items-center gap-8">
-                                <i class="icon icon-mail fs-20 text-variant-2"></i>
-                                <p class="text-white">crowdyab.ir@gmail.com</p>
-                            </li>
+                            <li class="mt-12 d-flex align-items-center gap-8"><i
+                                        class="icon icon-mapPinLine fs-20 text-variant-2"></i>
+                                <p class="text-white">تهران - بلوار ولیعصر</p></li>
+                            <li class="mt-12 d-flex align-items-center gap-8"><i
+                                        class="icon icon-phone2 fs-20 text-variant-2"></i><a
+                                        class="text-white caption-1" href="tel:02155321628">02155321628</a></li>
+                            <li class="mt-12 d-flex align-items-center gap-8"><i
+                                        class="icon icon-mail fs-20 text-variant-2"></i>
+                                <p class="text-white">funding@gmail.com</p></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="footer-cl-2 footer-col-block">
-                        <div class="fw-7 text-white footer-heading-mobile">
-                            دسته
-                        </div>
+                        <div class="fw-7 text-white footer-heading-mobile">دسته بندی ها</div>
                         <div class="tf-collapse-content">
                             <ul class="mt-10 navigation-menu-footer">
-                                <li>
-                                    <a
-                                            class="caption-1 text-variant-2"
-                                            href="pricing.html"
-                                    >طرح های قیمت گذاری</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                            class="caption-1 text-variant-2"
-                                            href="our-service.html"
-                                    >خدمات ما</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                            class="caption-1 text-variant-2"
-                                            href="about-us.html"
-                                    >درباره ما</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                            class="caption-1 text-variant-2"
-                                            href="contact.html"
-                                    >با ما تماس بگیرید</a
-                                    >
-                                </li>
+                                <li><a class="caption-1 text-variant-2" href="/plans">فرصت های سرمایه گزاری</a></li>
+                                <li><a class="caption-1 text-variant-2" href="https://blog.crowdyab.ir/تماس-با-ما/">درخواست
+                                        تامین مالی</a></li>
+                                <li><a class="caption-1 text-variant-2" href="#">باشگاه سرمایه گذاران</a></li>
+                                <li><a class="caption-1 text-variant-2" href="https://blog.crowdyab.ir/">وبلاگ</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="footer-cl-3 footer-col-block">
-                        <div class="fw-7 text-white footer-heading-mobile">
-                            شرکت ما
-                        </div>
+                        <div class="fw-7 text-white footer-heading-mobile">شرکت ما</div>
                         <div class="tf-collapse-content">
                             <ul class="mt-10 navigation-menu-footer">
-                                <li>
-                                    <a
-                                            class="caption-1 text-variant-2"
-                                            href="topmap-list.html"
-                                    >املاک برای فروش</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                            class="caption-1 text-variant-2"
-                                            href="topmap-grid.html"
-                                    >ملک برای اجاره</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                            class="caption-1 text-variant-2"
-                                            href="topmap-grid.html"
-                                    >ملک برای خرید</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                            class="caption-1 text-variant-2"
-                                            href="topmap-grid.html"
-                                    >عوامل ما</a
-                                    >
-                                </li>
+                                <li><a class="caption-1 text-variant-2" href="#">بخش ها</a></li>
+                                <li><a class="caption-1 text-variant-2" href="#">همکاران</a></li>
+                                <li><a class="caption-1 text-variant-2" href="#">هیئت مدیره</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="footer-cl-4 footer-col-block">
-                        <div class="fw-7 text-white footer-heading-mobile">
-                            خبرنامه
-                        </div>
-                        <div class="tf-collapse-content">
-                            <p class="mt-12 text-variant-2">
-                                دوز هفتگی/ماهانه دانش و الهام شما
-                            </p>
-                            <form
-                                    accept-charset="utf-8"
-                                    action="#"
-                                    class="mt-12"
-                                    data-mailchimp="true"
-                                    id="subscribe-form"
-                                    method="post"
-                            >
-                                <div id="subscribe-content">
-                                    <input
-                                            id="subscribe-email"
-                                            name="email-form"
-                                            placeholder="آدرس ایمیل شما"
-                                            type="email"
-                                    />
-                                    <button
-                                            class="button-subscribe"
-                                            id="subscribe-button"
-                                            type="button"
-                                    >
-                                        <svg
-                                                fill="none"
-                                                height="20"
-                                                viewbox="0 0 20 20"
-                                                width="20"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                    d="M5.00044 9.99935L2.72461 2.60352C8.16867 4.18685 13.3024 6.68806 17.9046 9.99935C13.3027 13.3106 8.16921 15.8118 2.72544 17.3952L5.00044 9.99935ZM5.00044 9.99935H11.2504"
-                                                    stroke="#1563DF"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                    stroke-width="1.5"
-                                            ></path>
-                                        </svg>
-                                    </button>
-                                </div>
-                                <div id="subscribe-msg"></div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+                <div class="col-lg-4 col-md-6"></div>
             </div>
         </div>
     </div>
     <div class="bottom-footer">
         <div class="container">
             <div class="content-footer-bottom">
-                <div class="copyright">
-                    ©1403 CrowdYab. تمامی حقوق محفوظ است.
-                </div>
                 <ul class="menu-bottom">
-                    <li><a href="our-service.html">شرایط خدمات</a></li>
-                    <li><a href="pricing.html">سیاست حفظ حریم</a></li>
-                    <li><a href="contact.html">خط مشی کوکی</a></li>
+                    <li><a class="caption-1 text-variant-2" href="https://blog.crowdyab.ir/سیاست-حفظ-حریم/">سیاست حفظ
+                            حریم</a></li>
                 </ul>
             </div>
         </div>

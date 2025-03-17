@@ -1,6 +1,7 @@
 <?php
 $_DIR = get_bloginfo('template_directory') . '/';
 $_URL = site_url() . '/';
+$MAIN_URL = 'https://crowdyab.ir';
 $pageURl = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 add_theme_support('post-thumbnails');
 register_nav_menus(

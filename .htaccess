@@ -70,4 +70,14 @@
 # به طور پویا تولید شده‌اند، و فقط باید به وسیلهٔ صافی‌های وردرپرس ویرایش شوند.
 # هر تغییری در دستورالعمل‌های بین این نشان‌گرها بازنویشی خواهند شد.
 
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /Crow-Blog/
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . /Crow-Blog/index.php [L]
+RewriteRule ^(application|system) - [F,L]
+</IfModule>
+
+
 # END WordPress

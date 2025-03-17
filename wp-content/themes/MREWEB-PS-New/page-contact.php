@@ -94,25 +94,19 @@ get_header(); global $_URL, $_DIR;
                             <li class="box">
                                 <h6 class="title">آدرس:</h6>
                                 <p class="text-variant-1">
-                                    تهران میرداماد قبل از خیابان نیل جنب ستاد مرکزی بیمه دی ساختمان سبز(۲۳۷) طبقه ۴ واحد بیست
+                                    تهران - بلوار ولیعصر
                                 </p>
                             </li>
                             <li class="box">
                                 <h6 class="title">شماره تماس:</h6>
                                 <p class="text-variant-1">
-                                    021-22255095
-                                </p>
-                            </li>
-                            <li class="box">
-                                <h6 class="title">کد پستی:</h6>
-                                <p class="text-variant-1">
-                                    1918955177
+                                    02155321628
                                 </p>
                             </li>
                             <li class="box">
                                 <div class="title">Email:</div>
                                 <p class="text-variant-1">
-                                    crowdyab.ir@gmail.com
+                                    funding@gmail.com
                                 </p>
                             </li>
                             <li class="box">
