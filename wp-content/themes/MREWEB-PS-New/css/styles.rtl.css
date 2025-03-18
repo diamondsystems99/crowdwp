@@ -999,7 +999,7 @@ label {
   gap: 16px;
 }
 .header-account .tf-btn {
-  min-width: 206px;
+  min-width: 140px;
 }
 .header-account .btn-login {
   min-width: 140px;
@@ -1276,7 +1276,7 @@ label {
   -webkit-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
-  padding-left: 65px;
+  padding-left: 30px;
 }
 
 .main-header .sticky-header .nav-outer .options-box {
@@ -3041,7 +3041,7 @@ label {
 }
 /*------------ button ---------------- */
 .tf-btn {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 21.86px;
   font-weight: 600;
   display: inline-flex;
@@ -10242,7 +10242,7 @@ tr {
 }
 @media only screen and (max-width: 1300px) {
   .main-header .main-menu .navigation > li {
-    padding-left: 40px;
+    padding-left: 30px;
   }
 
   .wrap-property-v2 .box-inner-right {
@@ -11510,7 +11510,7 @@ tr {
   right: 15px;
 }
 .rtl .main-header .main-menu .navigation > li {
-  padding-right: 65px;
+  padding-right: 30px;
   padding-left: 0;
 }
 .rtl .main-header .main-menu .navigation > li:last-child {
