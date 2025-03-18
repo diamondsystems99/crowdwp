@@ -8,11 +8,11 @@ get_header(); global $_URL, $_DIR;
             <div class="row">
                 <div class="col-lg-8">
                     <div class="contact-content">
-                        <h4>ما را یک خط رها کنید</h4>
+                        <h4>فرم درخواست تامین مالی</h4>
                         <p class="body-2 text-variant-1">
-                            برای به روزرسانی ، اخبار و موارد دیگر با ما از طریق کانال
-                            های آنلاین ما ارتباط برقرار کنید.
+                            لطفا اطلاعات خود را از طریق فرم زیر برای ما ارسال کنید. کارشناسان ما با شما تماس خواهند گرفت.
                         </p>
+                        <br>
                         <?php echo do_shortcode('[contact-form-7 id="6643dd9" title="فرم تماس 1"]'); ?>
 
                     </div>
