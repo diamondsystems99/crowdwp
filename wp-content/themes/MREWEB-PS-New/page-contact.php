@@ -14,78 +14,7 @@ get_header(); global $_URL, $_DIR;
                             های آنلاین ما ارتباط برقرار کنید.
                         </p>
                         <?php echo do_shortcode('[contact-form-7 id="6643dd9" title="فرم تماس 1"]'); ?>
-                        <br>
-                        <form
-                            action="#"
-                            class="form-contact"
-                            id="contactform"
-                            method="post"
-                        >
-                            <div class="box grid-2">
-                                <fieldset>
-                                    <label for="name">نام کامل:</label>
-                                    <input
-                                        class="form-control"
-                                        id="name"
-                                        name="name"
-                                        placeholder="نام شما"
-                                        required=""
-                                        type="text"
-                                    />
-                                </fieldset>
-                                <fieldset>
-                                    <label for="email">آدرس ایمیل:</label>
-                                    <input
-                                        class="form-control"
-                                        id="email"
-                                        name="email"
-                                        placeholder="ایمیل"
-                                        required=""
-                                        type="text"
-                                    />
-                                </fieldset>
-                            </div>
-                            <div class="box grid-2">
-                                <fieldset>
-                                    <label for="phone">شماره تلفن:</label>
-                                    <input
-                                        class="form-control style-1"
-                                        id="phone"
-                                        name="phone"
-                                        placeholder="سابق 012345678"
-                                        required=""
-                                        type="text"
-                                    />
-                                </fieldset>
-                                <fieldset>
-                                    <label for="subject">موضوع:</label>
-                                    <input
-                                        class="form-control style-1"
-                                        id="subject"
-                                        name="subject"
-                                        placeholder="کلمه کلیدی را وارد کنید"
-                                        type="text"
-                                    />
-                                </fieldset>
-                            </div>
-                            <fieldset>
-                                <label for="message">پیام شما:</label>
-                                <textarea
-                                    class="form-control"
-                                    cols="30"
-                                    id="message"
-                                    name="message"
-                                    placeholder="متن پیام"
-                                    required=""
-                                    rows="10"
-                                ></textarea>
-                            </fieldset>
-                            <div class="send-wrap">
-                                <button class="tf-btn primary size-1" type="submit">
-                                    ارسال پیام
-                                </button>
-                            </div>
-                        </form>
+
                     </div>
                 </div>
                 <div class="col-lg-4">
