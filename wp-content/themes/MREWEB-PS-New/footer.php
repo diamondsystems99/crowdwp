@@ -1,6 +1,4 @@
 <?php global $_URL, $_DIR, $MAIN_URL; ?>
-
-
 <!-- footer -->
 <footer class="footer">
     <div class="top-footer">
