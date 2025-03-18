@@ -13,6 +13,7 @@ get_header(); global $_URL, $_DIR;
                             برای به روزرسانی ، اخبار و موارد دیگر با ما از طریق کانال
                             های آنلاین ما ارتباط برقرار کنید.
                         </p>
+                        <?php echo do_shortcode('[contact-form-7 id="6643dd9" title="فرم تماس 1"]'); ?>
                         <br>
                         <form
                             action="#"
@@ -111,7 +112,7 @@ get_header(); global $_URL, $_DIR;
                             </li>
                             <li class="box">
                                 <div class="title">ما را دنبال کنید:</div>
-                                
+
                                 <style>
                                     .box-icon{
                                         color: #000 !important;
