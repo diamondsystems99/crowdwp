@@ -6,8 +6,8 @@ $index = 1;
 ?>
 
     <section class="flat-section">
-        <div class="container">
-            <div class="tf-faq">
+        <div class="container row">
+            <div class="tf-faq col-md-6 col-12">
                 <h3 class="fw-8 text-center title">ویژه سرمایه‌گذار</h3>
                 <ul class="box-faq" id="wrapper-faq">
                     <li class="faq-item active">
@@ -225,7 +225,7 @@ $index = 1;
                 </ul>
             </div>
 
-            <div class="tf-faq">
+            <div class="tf-faq col-md-6 col-12">
                 <h3 class="fw-8 text-center title">ویژه سرمایه‌پذیر</h3>
                 <ul class="box-faq" id="wrapper-faq-two">
                     <li class="faq-item">
@@ -362,3 +362,4 @@ $index = 1;
     </section>
 
 <?php get_footer(); ?>
+

@@ -457,6 +457,7 @@ textarea {
   line-height: 26px;
 }
 
+
 /* Typography
 -------------------------------------------------------------- */
 .title-large,
@@ -6098,6 +6099,7 @@ label {
   gap: 8px;
   background-color: #ffffff;
   border-radius: 999px;
+  display: none;
 }
 .tf-image-wrap .tag-item .icon {
   font-size: 20px;

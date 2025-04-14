@@ -8,18 +8,12 @@ get_header(); global $_URL, $_DIR;
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
                     <h1 class="title">به کرادیاب خوش آمدید!</h1>
-                    <p class="text-variant-1 desc">
+                    <p class="text-variant-1 desc text-justify">
                         جایی که سرمایه را به فرصت و ایده‌ها را به واقعیت تبدیل می‌کنیم.
                         در کرادیاب، ما معتقدیم که تأمین مالی جمعی فقط یک روش جذب سرمایه نیست؛ بلکه پلی است میان سرمایه‌گذاران و کارآفرینان، جایی که رؤیاها به عمل تبدیل می‌شوند، کسب‌وکارها رشد می‌کنند و سرمایه‌گذاری‌ها به ثمر می‌نشینند.
                         چه به دنبال یک فرصت سرمایه‌گذاری هوشمند باشید، چه بخواهید ایده‌ی خود را به واقعیت تبدیل کنید، کرادیاب همراه شماست تا مسیر را هموارتر کند.
                     </p>
-                    <div class="signature-box">
-                        <div class="top">
-                            <h6>مسعود قربانی دولت آبادی</h6>
-                            <p class="text-variant-2">مدیرعامل و بنیانگذار</p>
-                        </div>
-                        <img alt="" src="<?php echo $_DIR; ?>images/banner/signature.png" />
-                    </div>
+
                     <a class="tf-btn btn-view primary hover-btn-view" href="<?php echo get_permalink(6126); ?>">
                         با ما تماس بگیرید
                         <span class="icon icon-arrow-left2"></span>
@@ -94,11 +88,11 @@ get_header(); global $_URL, $_DIR;
                             data-wow-delay=".2s"
                             data-wow-duration="2000ms"
                     >
-                        <div class="text-subtitle text-primary">کرادیاب</div>
+                        <div class="p-24 text-subtitle text-primary ">کرادیاب</div>
                         <h3 class="title mt-4">
                             ما در کرادیاب، مرزهای سرمایه‌گذاری را از نو تعریف کرده‌ایم!
                         </h3>
-                        <p class="desc text-variant-1">
+                        <p class="desc text-variant-1 p-16">
                             ما فراتر از یک پلتفرم تأمین مالی جمعی عمل می‌کنیم؛ کرادیاب جایی است که نوآوری، هوش مصنوعی و تحلیل‌های پیشرفته دست به دست هم می‌دهند تا سرمایه‌گذاری را هوشمندتر، شفاف‌تر و پربازده‌تر از همیشه کنیم.
                             اینجا، شما نه‌تنها سرمایه‌گذاری می‌کنید، بلکه آینده را می‌سازید!
                         </p>
@@ -144,7 +138,7 @@ get_header(); global $_URL, $_DIR;
                             </div>
                             <div class="content">
                                 <h5 class="title">سرمایه‌گذاری هوشمند با ابزارهای تحلیلی پیشرفته</h5>
-                                <p class="description">
+                                <p class="description  p-16">
                                     امکان مشاهده، مقایسه و سرمایه‌گذاری در طرح‌های تأمین مالی جمعی با ابزارهای تحلیلی پیشرفته.
                                 </p>
                             </div>
@@ -203,7 +197,7 @@ get_header(); global $_URL, $_DIR;
                             </div>
                             <div class="content">
                                 <h5 class="title">تصویری شفاف از تأمین مالی جمعی در ایران</h5>
-                                <p class="description">
+                                <p class="description  p-16">
                                     ارائه گزارش‌های تخصصی، آمارهای جامع و تحلیل‌های دقیق از وضعیت تأمین مالی جمعی در ایران
                                 </p>
                             </div>
@@ -266,7 +260,7 @@ get_header(); global $_URL, $_DIR;
                             </div>
                             <div class="content">
                                 <h5 class="title">راهکارهای تخصصی برای تأمین مالی و توسعه کسب‌وکارها</h5>
-                                <p class="description">
+                                <p class="description  p-16">
                                     مشاوره و راهکارهای مالی برای تأمین سرمایه، تأسیس سکوهای تأمین مالی جمعی و اصلاح ساختارهای شرکتی
                                 </p>
                             </div>
@@ -287,9 +281,11 @@ get_header(); global $_URL, $_DIR;
             <div class="wrap-banner bg-primary-new">
                 <div class="box-left">
                     <div class="box-title">
-                        <div class="text-subtitle text-primary">کرادیاب</div>
-                        <h3 class="mt-4 fw-8">
-                            اگر به دنبال سرمایه‌گذاری، تأمین مالی یا بررسی گزارش‌های بازار تأمین مالی جمعی هستید، کرادیاب بهترین مسیر را برای شما فراهم می‌کند
+                        <div class="p-24 text-subtitle text-primary ">کرادیاب</div>
+                        <h3 class="mt-4 fw-8 text-justify p-24 lh-40">
+                            اگر به دنبال سرمایه‌گذاری، تأمین مالی یا بررسی گزارش‌های بازار تأمین مالی جمعی هستید،
+                            <br>
+                            کرادیاب بهترین مسیر را برای شما فراهم می‌کند
                         </h3>
                     </div>
                     <a class="tf-btn btn-view primary size-1 hover-btn-view"
