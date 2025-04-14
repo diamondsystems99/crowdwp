@@ -37,10 +37,7 @@
     <link href="<?php echo $_DIR; ?>css/bootstrap.min.rtl.css" rel="stylesheet"/>
     <link href="<?php echo $_DIR; ?>css/swiper-bundle.min.css" rel="stylesheet"/>
     <link href="<?php echo $_DIR; ?>css/animate.css" rel="stylesheet"/>
-    <link href="<?php echo $_DIR; ?>css/styles.rtl.css" rel="stylesheet" type="text/css"/>
-    <!-- Favicon and Touch Icons  -->
-    <link href="<?php echo $_DIR; ?>images/logo/favicon.png" rel="shortcut icon"/>
-    <link href="<?php echo $_DIR; ?>images/logo/favicon.png" rel="apple-touch-icon-precomposed"/>
+    <link href="<?php echo $_DIR; ?>css/styles.rtl.css" rel="stylesheet" type="text/css"/> 
     <?php wp_head(); ?>
 </head>
 <body class="body">
