@@ -128,6 +128,7 @@
                             <ul class="mt-10 navigation-menu-footer">
                                 <li><a class="caption-1 text-variant-2" href="<?php echo $MAIN_URL; ?>/plans">فرصت های سرمایه گذاری</a></li
                                 <li><a class="caption-1 text-variant-2" href="https://blog.crowdyab.ir/سوالات-متداول">سوالات متداول</a></li>
+                                <li><a class="caption-1 text-variant-2" href="https://blog.crowdyab.ir/%d8%b3%db%8c%d8%a7%d8%b3%d8%aa-%d8%ad%d9%81%d8%b8-%d8%ad%d8%b1%db%8c%d9%85/">حفظ حریم خصوصی</a></li>
                                 <li><a class="caption-1 text-variant-2" href="#">باشگاه سرمایه گذاران</a></li>
                                 <li><a class="caption-1 text-variant-2" href="https://blog.crowdyab.ir/">وبلاگ</a></li>
                             </ul>
