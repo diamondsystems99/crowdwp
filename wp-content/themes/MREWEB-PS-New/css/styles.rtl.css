@@ -5088,8 +5088,11 @@ label {
   width: 100%;
 }
 
+.flat-blog-detail a {
+  color: #163fb4;
+}
 .flat-blog-detail h4 {
-  margin-bottom: 16px;
+  margin: 16px 0;
 }
 .flat-blog-detail .meta-blog {
   display: flex;
