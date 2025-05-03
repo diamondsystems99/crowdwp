@@ -16,7 +16,7 @@ global $_URL, $_DIR;
             font-size: 36px;
             line-height: 68px;
         }
-        ul{
+        .flat-section ul{
             line-height: 34px;
             color: #000;
             font-weight: 900;
