@@ -1,15 +1,15 @@
-# Translation of WordPress - 6.7.x - Development - Administration - Network Admin in Persian
-# This file is distributed under the same license as the WordPress - 6.7.x - Development - Administration - Network Admin package.
+# Translation of WordPress - 6.8.x - Development - Administration - Network Admin in Persian
+# This file is distributed under the same license as the WordPress - 6.8.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-11-15 20:23:01+0000\n"
+"PO-Revision-Date: 2025-04-17 23:13:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: GlotPress/4.0.1\n"
 "Language: fa\n"
-"Project-Id-Version: WordPress - 6.7.x - Development - Administration - Network Admin\n"
+"Project-Id-Version: WordPress - 6.8.x - Development - Administration - Network Admin\n"
 
 #: wp-admin/network/upgrade.php:32
 msgid "<a href=\"https://developer.wordpress.org/advanced-administration/multisite/admin/#network-admin-updates-screen\">Documentation on Upgrade Network</a>"
@@ -106,12 +106,12 @@ msgid "You should back up your existing %1$s and %2$s files."
 msgstr "شما باید از پرونده‌های %1$s و %2$s موجود خود نسخه پشتیبان تهیه کنید."
 
 #. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:738
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:744
 msgid "Visit theme site for %s"
 msgstr "مشاهده سایت پوسته‌ی %s"
 
 #. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:751
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:757
 msgid "Child theme of %s"
 msgstr "پوسته فرزند %s"
 
@@ -239,7 +239,7 @@ msgstr "نصب زیر دامنه"
 msgid "Sub-directory Installation"
 msgstr "نصب زیرپوشه"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:944
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:950
 msgid "Active Child Theme"
 msgstr "فعال‌سازی پوستهٔ فرزند"
 
@@ -381,7 +381,7 @@ msgctxt "user"
 msgid "Mark as spam"
 msgstr "جفنگ است"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:744
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:750
 msgid "Visit Theme Site"
 msgstr "دیدن سایت پوسته"
 
@@ -513,7 +513,7 @@ msgstr "جفنگ"
 msgid "Archived"
 msgstr "بایگانی‌شده"
 
-#: wp-admin/network/site-users.php:373 wp-admin/network/user-new.php:149
+#: wp-admin/network/site-users.php:376 wp-admin/network/user-new.php:149
 msgid "A password reset link will be sent to the user via email."
 msgstr "پیوند تغییر رمز به ایمیل کاربر فرستاده خواهد شد."
 
@@ -769,7 +769,7 @@ msgstr "به مدیریت شبکه خوش آمدید. این بخش برای م�
 msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
 msgstr "تنها زمانی از این صفحه استفاده کنید که وردپرس را (از طریق فهرست‌های مدیریتی یا نوارابزار) به نگارش تازه‌ای به‌روز کرده باشید. با کلیک روی «ارتقای شبکه» فرآیند به‌روزرسانی سایت‌های موجود در شبکه‌ی شما در دسته‌های پنج‌تایی آغاز می‌شود. از اعمال تغییرات در پایگاه‌داده اطمینان‌خاطر حاصل کنید."
 
-#: wp-admin/network/menu.php:46 wp-admin/network/upgrade.php:16
+#: wp-admin/network/menu.php:51 wp-admin/network/upgrade.php:16
 #: wp-admin/network/upgrade.php:43 wp-admin/network/upgrade.php:145
 msgid "Upgrade Network"
 msgstr "ارتقای شبکه"
@@ -788,8 +788,8 @@ msgid "Language Settings"
 msgstr "تنظیمات زبان"
 
 #: wp-admin/network/settings.php:253
-msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page"
-msgstr "مدیران سایت مجاز هستند تا از طریق صفحه \"کاربران&rarr;افزودن\" کاربران تازه را به سایتشان اضافه کنند."
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add User\" page"
+msgstr "به مدیران سایت اجازه دهید تا به وسیله صفحهٔ «کاربران &larr; افزودن کاربر» کاربران جدید را به سایت خود اضافه نمایند"
 
 #: wp-admin/network/settings.php:58
 msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
@@ -913,12 +913,12 @@ msgid "An Edit link to a separate Edit Site screen."
 msgstr "یک پیوند ویرایش به صفحه مجزا برای ویرایش سایت."
 
 #: wp-admin/network/sites.php:31
-msgid "Add New Site takes you to the screen for adding a new site to the network. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
-msgstr "با کلیک روی گزینه افزودن به بخش افزودن سایت تازه به شبکه می‌روید. می‌توانید با جستجو بر اساس نام، شناسه یا نشانی آی‌پی سایت را پیدا کنید. با استفاده از تنظیمات صفحه نمایش می‌توانید تعداد سایت‌های به نمایش درآمده در هر صفحه را تعیین کنید."
+msgid "Add Site takes you to the screen for adding a new site to the network. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr "افزودن سایت شما را به صفحه‌ای برای افزودن سایت جدید به شبکه هدایت می‌نماید. شما می‌توانید سایت را با نام، شماره شناسایی، یا آدرس آی‌پی جستجو نمایید. گزینه‌های صفحه به شما این امکان را می‌دهند که تعیین نمایید چند سایت در یک صفحه نمایش داده شوند."
 
-#: wp-admin/network/site-users.php:336 wp-admin/network/user-new.php:161
-msgid "Add User"
-msgstr "افزودن کاربر"
+#: wp-admin/network/settings.php:251
+msgid "Add Users"
+msgstr "افزودن کاربران"
 
 #: wp-admin/network/user-new.php:55
 msgid "Cannot add user."
@@ -928,19 +928,19 @@ msgstr "نمی‌توان کاربری اضافه کرد."
 msgid "Add User will set up a new user account on the network and send that person an email with username and password."
 msgstr "«افزودن کاربر تازه» یک حساب کاربری جدید در شبکه ایجاد کرده و ایمیلی دربردارنده‌ی نام‌کاربری و رمز به آن فرد می‌‌فرستد."
 
-#: wp-admin/network/menu.php:41
+#: wp-admin/network/menu.php:46
 msgid "Updates"
 msgstr "به‌روزرسانی‌ها"
 
-#: wp-admin/network/menu.php:111 wp-admin/network/settings.php:21
+#: wp-admin/network/menu.php:116 wp-admin/network/settings.php:21
 msgid "Network Settings"
 msgstr "تنظیمات شبکه"
 
-#: wp-admin/network/menu.php:80
+#: wp-admin/network/menu.php:85
 msgid "Installed Themes"
 msgstr "پوسته‌های نصب‌شده"
 
-#: wp-admin/network/menu.php:52
+#: wp-admin/network/menu.php:57
 msgid "All Sites"
 msgstr "همهٔ سایت‌ها"
 
@@ -1043,8 +1043,8 @@ msgid "Welcome to the Network installation process!"
 msgstr "به روند نصب و راه‌اندازی شبکه خوش آمدید!"
 
 #: wp-admin/includes/network.php:161
-msgid "Error: The network could not be created."
-msgstr "خطا: شبکه نمی‌تواند ایجاد شود."
+msgid "The network could not be created."
+msgstr "امکان ساخت شبکه نبود."
 
 #: wp-admin/includes/network.php:146
 msgid "Once the network is created, you may reactivate your plugins."
@@ -1358,7 +1358,9 @@ msgstr "اگر نشانی ایمیل بالا در پایگاه‌داده مو�
 msgid "Admin Email"
 msgstr "ایمیل مدیر"
 
-#: wp-admin/network/site-new.php:299
+#: wp-admin/network/menu.php:58 wp-admin/network/site-new.php:182
+#: wp-admin/network/site-new.php:192 wp-admin/network/site-new.php:299
+#: wp-admin/network/sites.php:391
 msgid "Add Site"
 msgstr "افزودن سایت"
 
@@ -1410,9 +1412,9 @@ msgstr "محدودیت ایمیل نام‌نویسی"
 msgid "Banned Names"
 msgstr "نام‌های غیرمجاز"
 
-#: wp-admin/network/settings.php:251
-msgid "Add New Users"
-msgstr "افزودن کاربران تازه"
+#: wp-admin/network/site-users.php:353
+msgid "Add New User"
+msgstr "افزودن کاربر تازه"
 
 #: wp-admin/network/settings.php:239
 msgid "Registration notification"

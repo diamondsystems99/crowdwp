@@ -92,8 +92,8 @@ $configId = 3402;
                                                     alt="logo"
                                                     height="100"
                                                     src="<?php echo $_DIR; ?>images/logo/logofont.png"
-                                                    width="150"
-                                            /></a>
+                                                    width="150"/>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="nav-outer flex align-center">

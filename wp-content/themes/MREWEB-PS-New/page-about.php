@@ -13,7 +13,6 @@ get_header(); global $_URL, $_DIR;
                         در کرادیاب، ما معتقدیم که تأمین مالی جمعی فقط یک روش جذب سرمایه نیست؛ بلکه پلی است میان سرمایه‌گذاران و کارآفرینان، جایی که رؤیاها به عمل تبدیل می‌شوند، کسب‌وکارها رشد می‌کنند و سرمایه‌گذاری‌ها به ثمر می‌نشینند.
                         چه به دنبال یک فرصت سرمایه‌گذاری هوشمند باشید، چه بخواهید ایده‌ی خود را به واقعیت تبدیل کنید، کرادیاب همراه شماست تا مسیر را هموارتر کند.
                     </p>
-
                     <a class="tf-btn btn-view primary hover-btn-view" href="<?php echo get_permalink(6126); ?>">
                         با ما تماس بگیرید
                         <span class="icon icon-arrow-left2"></span>
@@ -275,8 +274,7 @@ get_header(); global $_URL, $_DIR;
     <section
             class="flat-section pt-0 flat-banner wow fadeInUpSmall"
             data-wow-delay=".2s"
-            data-wow-duration="2000ms"
-    >
+            data-wow-duration="2000ms">
         <div class="container">
             <div class="wrap-banner bg-primary-new">
                 <div class="box-left">

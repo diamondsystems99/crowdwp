@@ -62,11 +62,6 @@ msgstr "سربرگ با عنوان بزرگ"
 
 #: theme.json
 msgctxt "Template part name"
-msgid "Vertical Header"
-msgstr "سربرگ عمودی"
-
-#: theme.json
-msgctxt "Template part name"
 msgid "Header"
 msgstr "سربرگ"
 
@@ -99,7 +94,7 @@ msgctxt "Font family name"
 msgid "Fira Sans"
 msgstr "Fira Sans"
 
-#: styles/03-dusk.json styles/typography/typography-preset-2.json theme.json
+#: theme.json styles/03-dusk.json styles/typography/typography-preset-2.json
 msgctxt "Font family name"
 msgid "Fira Code"
 msgstr "Fira Code"
@@ -118,8 +113,8 @@ msgctxt "Font family name"
 msgid "Literata"
 msgstr "Literata"
 
-#: styles/05-twilight.json styles/typography/typography-preset-4.json
-#: theme.json
+#: theme.json styles/05-twilight.json
+#: styles/typography/typography-preset-4.json
 msgctxt "Font family name"
 msgid "Manrope"
 msgstr "Manrope"
@@ -274,57 +269,57 @@ msgctxt "Style variation name"
 msgid "Dusk"
 msgstr "گرگ و میش"
 
-#: styles/02-noon.json styles/04-afternoon.json styles/05-twilight.json
-#: styles/06-morning.json styles/08-midnight.json
+#: theme.json styles/02-noon.json styles/04-afternoon.json
+#: styles/05-twilight.json styles/06-morning.json styles/08-midnight.json
 #: styles/typography/typography-preset-1.json
 #: styles/typography/typography-preset-3.json
 #: styles/typography/typography-preset-4.json
 #: styles/typography/typography-preset-5.json
-#: styles/typography/typography-preset-7.json theme.json
+#: styles/typography/typography-preset-7.json
 msgctxt "Font size name"
 msgid "Extra Extra Large"
 msgstr "خیلی خیلی بزرگ"
 
-#: styles/02-noon.json styles/04-afternoon.json styles/05-twilight.json
-#: styles/06-morning.json styles/08-midnight.json
+#: theme.json styles/02-noon.json styles/04-afternoon.json
+#: styles/05-twilight.json styles/06-morning.json styles/08-midnight.json
 #: styles/typography/typography-preset-1.json
 #: styles/typography/typography-preset-3.json
 #: styles/typography/typography-preset-4.json
 #: styles/typography/typography-preset-5.json
-#: styles/typography/typography-preset-7.json theme.json
+#: styles/typography/typography-preset-7.json
 msgctxt "Font size name"
 msgid "Extra Large"
 msgstr "بسیار بزرگ"
 
-#: styles/02-noon.json styles/04-afternoon.json styles/05-twilight.json
-#: styles/06-morning.json styles/08-midnight.json
+#: theme.json styles/02-noon.json styles/04-afternoon.json
+#: styles/05-twilight.json styles/06-morning.json styles/08-midnight.json
 #: styles/typography/typography-preset-1.json
 #: styles/typography/typography-preset-3.json
 #: styles/typography/typography-preset-4.json
 #: styles/typography/typography-preset-5.json
-#: styles/typography/typography-preset-7.json theme.json
+#: styles/typography/typography-preset-7.json
 msgctxt "Font size name"
 msgid "Large"
 msgstr "بزرگ"
 
-#: styles/02-noon.json styles/04-afternoon.json styles/05-twilight.json
-#: styles/06-morning.json styles/08-midnight.json
+#: theme.json styles/02-noon.json styles/04-afternoon.json
+#: styles/05-twilight.json styles/06-morning.json styles/08-midnight.json
 #: styles/typography/typography-preset-1.json
 #: styles/typography/typography-preset-3.json
 #: styles/typography/typography-preset-4.json
 #: styles/typography/typography-preset-5.json
-#: styles/typography/typography-preset-7.json theme.json
+#: styles/typography/typography-preset-7.json
 msgctxt "Font size name"
 msgid "Medium"
 msgstr "میانه"
 
-#: styles/02-noon.json styles/04-afternoon.json styles/05-twilight.json
-#: styles/06-morning.json styles/08-midnight.json
+#: theme.json styles/02-noon.json styles/04-afternoon.json
+#: styles/05-twilight.json styles/06-morning.json styles/08-midnight.json
 #: styles/typography/typography-preset-1.json
 #: styles/typography/typography-preset-3.json
 #: styles/typography/typography-preset-4.json
 #: styles/typography/typography-preset-5.json
-#: styles/typography/typography-preset-7.json theme.json
+#: styles/typography/typography-preset-7.json
 msgctxt "Font size name"
 msgid "Small"
 msgstr "کوچک"
@@ -334,90 +329,90 @@ msgctxt "Style variation name"
 msgid "Noon"
 msgstr "ظهر"
 
-#: styles/01-evening.json styles/02-noon.json styles/03-dusk.json
+#: theme.json styles/01-evening.json styles/02-noon.json styles/03-dusk.json
 #: styles/04-afternoon.json styles/05-twilight.json styles/06-morning.json
 #: styles/07-sunrise.json styles/08-midnight.json styles/colors/01-evening.json
 #: styles/colors/02-noon.json styles/colors/03-dusk.json
 #: styles/colors/04-afternoon.json styles/colors/05-twilight.json
 #: styles/colors/06-morning.json styles/colors/07-sunrise.json
-#: styles/colors/08-midnight.json theme.json
+#: styles/colors/08-midnight.json
 msgctxt "Color name"
 msgid "Accent 6"
 msgstr "تاکید ۶"
 
-#: styles/01-evening.json styles/02-noon.json styles/03-dusk.json
+#: theme.json styles/01-evening.json styles/02-noon.json styles/03-dusk.json
 #: styles/04-afternoon.json styles/05-twilight.json styles/06-morning.json
 #: styles/07-sunrise.json styles/08-midnight.json styles/colors/01-evening.json
 #: styles/colors/02-noon.json styles/colors/03-dusk.json
 #: styles/colors/04-afternoon.json styles/colors/05-twilight.json
 #: styles/colors/06-morning.json styles/colors/07-sunrise.json
-#: styles/colors/08-midnight.json theme.json
+#: styles/colors/08-midnight.json
 msgctxt "Color name"
 msgid "Accent 5"
 msgstr "تاکید ۵"
 
-#: styles/01-evening.json styles/02-noon.json styles/03-dusk.json
+#: theme.json styles/01-evening.json styles/02-noon.json styles/03-dusk.json
 #: styles/04-afternoon.json styles/05-twilight.json styles/06-morning.json
 #: styles/07-sunrise.json styles/08-midnight.json styles/colors/01-evening.json
 #: styles/colors/02-noon.json styles/colors/03-dusk.json
 #: styles/colors/04-afternoon.json styles/colors/05-twilight.json
 #: styles/colors/06-morning.json styles/colors/07-sunrise.json
-#: styles/colors/08-midnight.json theme.json
+#: styles/colors/08-midnight.json
 msgctxt "Color name"
 msgid "Accent 4"
 msgstr "تاکید ۴"
 
-#: styles/01-evening.json styles/02-noon.json styles/03-dusk.json
+#: theme.json styles/01-evening.json styles/02-noon.json styles/03-dusk.json
 #: styles/04-afternoon.json styles/05-twilight.json styles/06-morning.json
 #: styles/07-sunrise.json styles/08-midnight.json styles/colors/01-evening.json
 #: styles/colors/02-noon.json styles/colors/03-dusk.json
 #: styles/colors/04-afternoon.json styles/colors/05-twilight.json
 #: styles/colors/06-morning.json styles/colors/07-sunrise.json
-#: styles/colors/08-midnight.json theme.json
+#: styles/colors/08-midnight.json
 msgctxt "Color name"
 msgid "Accent 3"
 msgstr "تاکید ۴"
 
-#: styles/01-evening.json styles/02-noon.json styles/03-dusk.json
+#: theme.json styles/01-evening.json styles/02-noon.json styles/03-dusk.json
 #: styles/04-afternoon.json styles/05-twilight.json styles/06-morning.json
 #: styles/07-sunrise.json styles/08-midnight.json styles/colors/01-evening.json
 #: styles/colors/02-noon.json styles/colors/03-dusk.json
 #: styles/colors/04-afternoon.json styles/colors/05-twilight.json
 #: styles/colors/06-morning.json styles/colors/07-sunrise.json
-#: styles/colors/08-midnight.json theme.json
+#: styles/colors/08-midnight.json
 msgctxt "Color name"
 msgid "Accent 2"
 msgstr "تاکید ۲"
 
-#: styles/01-evening.json styles/02-noon.json styles/03-dusk.json
+#: theme.json styles/01-evening.json styles/02-noon.json styles/03-dusk.json
 #: styles/04-afternoon.json styles/05-twilight.json styles/06-morning.json
 #: styles/07-sunrise.json styles/08-midnight.json styles/colors/01-evening.json
 #: styles/colors/02-noon.json styles/colors/03-dusk.json
 #: styles/colors/04-afternoon.json styles/colors/05-twilight.json
 #: styles/colors/06-morning.json styles/colors/07-sunrise.json
-#: styles/colors/08-midnight.json theme.json
+#: styles/colors/08-midnight.json
 msgctxt "Color name"
 msgid "Accent 1"
 msgstr "تاکید ۱"
 
-#: styles/01-evening.json styles/02-noon.json styles/03-dusk.json
+#: theme.json styles/01-evening.json styles/02-noon.json styles/03-dusk.json
 #: styles/04-afternoon.json styles/05-twilight.json styles/06-morning.json
 #: styles/07-sunrise.json styles/08-midnight.json styles/colors/01-evening.json
 #: styles/colors/02-noon.json styles/colors/03-dusk.json
 #: styles/colors/04-afternoon.json styles/colors/05-twilight.json
 #: styles/colors/06-morning.json styles/colors/07-sunrise.json
-#: styles/colors/08-midnight.json theme.json
+#: styles/colors/08-midnight.json
 msgctxt "Color name"
 msgid "Contrast"
 msgstr "کنتراست"
 
-#: styles/01-evening.json styles/02-noon.json styles/03-dusk.json
+#: theme.json styles/01-evening.json styles/02-noon.json styles/03-dusk.json
 #: styles/04-afternoon.json styles/05-twilight.json styles/06-morning.json
 #: styles/07-sunrise.json styles/08-midnight.json styles/colors/01-evening.json
 #: styles/colors/02-noon.json styles/colors/03-dusk.json
 #: styles/colors/04-afternoon.json styles/colors/05-twilight.json
 #: styles/colors/06-morning.json styles/colors/07-sunrise.json
-#: styles/colors/08-midnight.json theme.json
+#: styles/colors/08-midnight.json
 msgctxt "Color name"
 msgid "Base"
 msgstr "پایه"
@@ -426,16 +421,6 @@ msgstr "پایه"
 msgctxt "Style variation name"
 msgid "Evening"
 msgstr "عصر"
-
-#: patterns/vertical-header.php
-msgctxt "Pattern description"
-msgid "Vertical Header with site title and navigation"
-msgstr "سربرگ عمودی با عنوان سایت و راهبری"
-
-#: patterns/vertical-header.php
-msgctxt "Pattern title"
-msgid "Vertical header"
-msgstr "سربرگ عمودی"
 
 #: patterns/text-faqs.php:83
 msgctxt "Question in the FAQs pattern."
@@ -553,11 +538,6 @@ msgctxt "Pattern title"
 msgid "Right-aligned single post"
 msgstr "تک نوشته راست‌چین"
 
-#: patterns/template-single-text-blog.php
-msgctxt "Pattern title"
-msgid "Text-only blog, single post"
-msgstr "بلاگ فقط متنی، تک نوشته"
-
 #: patterns/template-single-photo-blog.php:79
 msgid "Next Photo"
 msgstr "تصویر بعدی"
@@ -624,11 +604,6 @@ msgctxt "Pattern title"
 msgid "Right-aligned blog, search"
 msgstr "بلاگ راست‌چین، جستجو"
 
-#: patterns/template-search-text-blog.php
-msgctxt "Pattern title"
-msgid "Text-only blog, search"
-msgstr "بلاگ فقط متنی، جستجو"
-
 #: patterns/template-search-photo-blog.php
 msgctxt "Pattern title"
 msgid "Photo blog search results"
@@ -648,16 +623,6 @@ msgstr "یک فهرست از نوشته‌ها، ۱ ستون، با تصویر �
 msgctxt "Pattern title"
 msgid "List of posts, 1 column"
 msgstr "فهرست نوشته‌ها، ۱ ستون"
-
-#: patterns/template-query-loop-vertical-header-blog.php
-msgctxt "Pattern title"
-msgid "Right-aligned posts"
-msgstr "نوشته‌های راست‌چین"
-
-#: patterns/template-query-loop-text-blog.php
-msgctxt "Pattern title"
-msgid "Text-only blog, posts"
-msgstr "بلاگ فقط متنی، نوشته‌ها"
 
 #: patterns/template-query-loop-photo-blog.php
 msgctxt "Pattern description"
@@ -687,11 +652,6 @@ msgctxt "Pattern title"
 msgid "News blog query loop"
 msgstr "حلقه کوئری بلاگ اخبار"
 
-#: patterns/template-page-vertical-header-blog.php
-msgctxt "Pattern title"
-msgid "Page template for the right-aligned blog"
-msgstr "قالب برگه برای بلاگ راست‌چین"
-
 #: patterns/template-page-photo-blog.php
 msgctxt "Pattern title"
 msgid "Photo blog page"
@@ -705,16 +665,6 @@ msgstr "آخرین خبرها"
 msgctxt "Pattern title"
 msgid "News blog with sidebar"
 msgstr "بلاگ خبری با نوار کناری"
-
-#: patterns/template-home-vertical-header-blog.php
-msgctxt "Pattern title"
-msgid "Homepage for right-aligned blog"
-msgstr "صفحه اصلی برای بلاگ راست‌چین"
-
-#: patterns/template-home-text-blog.php
-msgctxt "Pattern title"
-msgid "Text-only blog, home"
-msgstr "بلاگ فقط متنی، خانه"
 
 #: patterns/template-home-posts-grid-news-blog.php:114
 msgid "Architecture"
@@ -735,16 +685,6 @@ msgctxt "Pattern title"
 msgid "News blog home"
 msgstr "خانهٔ بلاگ اخبار"
 
-#: patterns/template-archive-vertical-header-blog.php
-msgctxt "Pattern title"
-msgid "Archive for the right-aligned blog"
-msgstr "بایگانی برای بلاگ راست‌چین"
-
-#: patterns/template-archive-text-blog.php
-msgctxt "Pattern title"
-msgid "Text-only blog, archive"
-msgstr "بلاگ فقط متنی، بایگانی"
-
 #: patterns/template-archive-photo-blog.php
 msgctxt "Pattern title"
 msgid "Photo blog archive"
@@ -754,11 +694,6 @@ msgstr "بایگانی بلاگ عکس"
 msgctxt "Pattern title"
 msgid "News blog archive"
 msgstr "بایگانی بلاگ اخبار"
-
-#: patterns/template-404-vertical-header-blog.php
-msgctxt "Pattern title"
-msgid "Right-aligned blog, 404"
-msgstr "بلاگ راست‌چین، 404"
 
 #: patterns/services-team-photos.php:50
 msgid "Man in hat, standing in front of a building."
@@ -1393,11 +1328,6 @@ msgctxt "Pattern title"
 msgid "Hero, overlapped book cover with links"
 msgstr "هیرو، روی جلد کتاب همپوشانی شده  با پیوندها"
 
-#: patterns/hero-full-width-image.php:33
-msgctxt "Sample hero button"
-msgid "Learn More"
-msgstr "بیشتر بدانید"
-
 #: patterns/hero-full-width-image.php:27
 msgctxt "Sample hero paragraph"
 msgid "Like flowers that bloom in unexpected places, every story unfolds with beauty and resilience, revealing hidden wonders."
@@ -1477,19 +1407,9 @@ msgid "Heading and paragraph with image on the right"
 msgstr "تیتر و پاراگراف با تصویر در سمت راست"
 
 #: patterns/header.php
-msgctxt "Pattern description"
-msgid "Header with site title and navigation."
-msgstr "سربرگ با عنوان سایت و راهبری."
-
-#: patterns/header.php
 msgctxt "Pattern title"
 msgid "Header"
 msgstr "سربرگ"
-
-#: patterns/header-large-title.php
-msgctxt "Pattern description"
-msgid "Header with large site title and right-aligned navigation."
-msgstr "سربرگ با عنوان سایت بزرگ و راهبری راست‌چین."
 
 #: patterns/header-large-title.php
 msgctxt "Pattern title"
@@ -1497,24 +1417,9 @@ msgid "Header with large title"
 msgstr "سربرگ با عنوان بزرگ"
 
 #: patterns/header-columns.php
-msgctxt "Pattern description"
-msgid "Header with site title and navigation in columns."
-msgstr "سربرگ با عنوان سایت و راهبری در ستون‌ها."
-
-#: patterns/header-columns.php
 msgctxt "Pattern title"
 msgid "Header with columns"
 msgstr "سربرگ با ستون‌ها"
-
-#: patterns/header-centered.php
-msgctxt "Pattern description"
-msgid "Header with centered site title and navigation."
-msgstr "سربرگ با عنوان سایت و راهبری وسط‌چین."
-
-#: patterns/header-centered.php
-msgctxt "Pattern title"
-msgid "Centered header"
-msgstr "سربرگ وسط‌چین"
 
 #: patterns/grid-with-categories.php:64
 msgid "Sunflowers"
@@ -1956,7 +1861,8 @@ msgctxt "Pattern title"
 msgid "Events list"
 msgstr "فهرست رویدادها"
 
-#: patterns/cta-centered-heading.php:28
+#: patterns/banner-intro-image.php:42 patterns/cta-centered-heading.php:28
+#: patterns/hero-full-width-image.php:33
 msgid "Learn more"
 msgstr "بیشتر بدانید"
 
@@ -2329,11 +2235,6 @@ msgstr "یک تیتر بزرگ چپ‌چین با نام تجاری مورد ت�
 msgctxt "Pattern title"
 msgid "Intro with left-aligned description"
 msgstr "مقدمه با توضیحات چپ‌چین."
-
-#: patterns/banner-intro-image.php:42
-msgctxt "Button text of intro section."
-msgid "Learn More"
-msgstr "بیشتر بدانید"
 
 #: patterns/banner-intro-image.php:35
 msgctxt "Sample description for banner with flower."
