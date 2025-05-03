@@ -24,6 +24,9 @@ global $_URL, $_DIR;
         }
     </style>
 
+
+    <img width="100%" src="<?php echo $_DIR; ?>images/banner-crowdyab.jpg"/>
+
     <section class="flat-section">
         <div class="container flat-header-wrapper-about">
             <div class="row justify-content-center">

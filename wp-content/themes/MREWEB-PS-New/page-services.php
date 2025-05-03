@@ -23,6 +23,7 @@ global $_URL, $_DIR;
             padding: 15px 15px;
         }
     </style>
+    <img width="100%" src="<?php echo $_DIR; ?>images/banner-service.jpg"/>
 
     <section class="flat-section">
         <div class="container flat-header-wrapper-about">
