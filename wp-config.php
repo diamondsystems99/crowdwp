@@ -26,13 +26,13 @@ define( 'DISALLOW_FILE_EDIT', true ); // Disable File Editor - Security > Settin
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wordpress_blog' );
+define( 'DB_NAME', 'persian_crud_blog' );
 
 /** Database username */
-define( 'DB_USER', 'blogroot' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', '2SyzW%qh1OU57wCEo6Y8' );
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -42,6 +42,14 @@ define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
+
+
+/*define( 'DB_NAME', 'wordpress_blog' );
+define( 'DB_USER', 'blogroot' );
+define( 'DB_PASSWORD', '2SyzW%qh1OU57wCEo6Y8' );
+define( 'DB_HOST', 'localhost' );
+define( 'DB_CHARSET', 'utf8mb4' );
+define( 'DB_COLLATE', '' );*/
 
 /**#@+
  * Authentication unique keys and salts.
