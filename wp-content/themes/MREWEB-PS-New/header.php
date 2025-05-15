@@ -100,7 +100,13 @@ $configId = 3402;
                                     <!-- Main Menu -->
                                     <nav class="main-menu show navbar-expand-md">
                                         <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
-                                           
+                                            <?php
+                                            $args = array(
+                                                'theme_location' => 'topTreeMenu',
+                                                'menu_class' => 'navigation clearfix'
+                                            );
+                                            wp_nav_menu($args);
+                                            ?>
                                         </div>
                                     </nav>
                                     <!-- Main Menu End-->
